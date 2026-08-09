@@ -1,0 +1,14 @@
+{
+  "name": "glow-and-play",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": { "node": ">=22" },
+  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "scripts": {
+    "dev": "pnpm --filter @glow-and-play/web dev",
+    "build": "pnpm --filter @glow-and-play/web build",
+    "preview": "pnpm --filter @glow-and-play/web preview",
+    "typecheck": "pnpm --filter @glow-and-play/web exec tsc -b",
+    "test": "pnpm --filter @glow-and-play/web test"
+  }
+}

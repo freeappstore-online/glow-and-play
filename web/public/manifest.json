@@ -1,0 +1,9 @@
+{
+  "name": "Glow & Play",
+  "short_name": "Glow & Play",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#a855f7",
+  "orientation": "any"
+}
