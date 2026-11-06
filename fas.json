@@ -1,0 +1,6 @@
+{
+  "appId": "glow-and-play",
+  "applicationRoot": "web",
+  "outputPath": "web/dist",
+  "buildCommand": "pnpm build"
+}
