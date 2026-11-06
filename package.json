@@ -8,7 +8,6 @@
     "dev": "pnpm --filter @glow-and-play/web dev",
     "build": "pnpm --filter @glow-and-play/web build",
     "preview": "pnpm --filter @glow-and-play/web preview",
-    "typecheck": "pnpm --filter @glow-and-play/web exec tsc -b",
-    "test": "pnpm --filter @glow-and-play/web test"
+    "typecheck": "pnpm --filter @glow-and-play/web exec tsc -b"
   }
 }
